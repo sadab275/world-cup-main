@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Poppins:wght@500&family=Ubuntu&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.banner {
+    background-color: black;
+    border-radius: 5px;
+    display: flex;
+    width: 100%;
+
+}
+
+.intro {
+    padding: 10px 111px;
+}
+
+.intro h1 {
+    color: #ffffff;
+    width: 40%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+    font-family: 'Poppins';
+}
+
+.intro p {
+    color: #ffffff;
+    width: 50%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'Poppins';
+
+}
+
+.btn {
+    /* -webkit-border-radius: 5;
+    -moz-border-radius: 5; */
+    border-radius: 5px;
+    font-family: 'Poppins';
+    color: #ffffff;
+    font-size: 20px;
+    background: #DD0000;
+    ;
+    padding: 16px 25px;
+    text-decoration: none;
+}
+
+.marcelo img {
+    width: 581px;
+    height: 613px;
+    left: 812px;
+    top: 109px;
+    margin-top: 20px;
+}
+
+.update {
+    width: 300px;
+    height: 212px;
+    left: 140px;
+    top: 826px;
+
+    background: #161616;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+
+
+}
+
+.update button {
+    width: 200px;
+    height: 50px;
+    margin-left: 35px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-weight: 700;
+
+}
+
+.blog {
+    background-color: #DD0000;
+    font-family: 'Poppins';
+    color: #ffffff;
+}
+
+.trns-info p {
+    font-family: 'Poppins';
+}
+
+.time {
+    width: 143px;
+    height: 26px;
+    left: 496px;
+    top: 1528px;
+}
+
+.trns-info .tran {
+    width: 100px;
+    height: 32px;
+    text-decoration: none;
+    padding: 1px 10px;
+    border: 1px solid #161616;
+    font-family: 'Poppins';
+    color: #161616;
+    font-weight: 400;
+    border-radius: 5px;
+}
