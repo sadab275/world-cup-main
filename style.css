@@ -91,6 +91,20 @@ body {
     color: #ffffff;
 }
 
+.transfers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    width: 100%;
+
+}
+
+.transfer {
+    width: 312px;
+    height: 362px;
+
+}
+
 .trns-info p {
     font-family: 'Poppins';
 }
