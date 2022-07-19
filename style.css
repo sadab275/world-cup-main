@@ -170,3 +170,25 @@ footer span {
     padding: 0px 30px;
     margin-top: 90px;
 }
+
+@media screen (min-width:688px) and (max-width:992px) {
+    .update {
+        justify-items: horizontal;
+        width: 100%
+    }
+
+    .transfers {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+    }
+}
+
+@media only screen (max-width:688) {
+    .transfers {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+
+}
