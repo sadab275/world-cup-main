@@ -105,15 +105,16 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 5px;
-
+    grid-row-gap: 5px;
+    margin-bottom: 37px;
 
 }
 
 .transfer {
-    width: 312px;
+    width: 321px;
     height: 362px;
-
-
+    border: 0.5px solid rgb(211, 209, 209);
+    border-radius: 10px;
 }
 
 .trns-info p {
@@ -125,6 +126,11 @@ body {
     height: 26px;
     left: 496px;
     top: 1528px;
+    display: flex;
+}
+
+.time span {
+    padding: 0px 10px;
 }
 
 .trns-info .tran {
@@ -141,4 +147,26 @@ body {
 
 .trans-img img {
     width: 321px;
+}
+
+footer {
+    background-color: black;
+    margin: -6px -108px;
+    color: white;
+    text-align: center;
+    padding: 68px 0;
+}
+
+hr {
+    margin-bottom: 50px;
+}
+
+footer span {
+    padding: 0px 48px;
+    /* margin-top: 25px; */
+}
+
+.icon {
+    padding: 0px 30px;
+    margin-top: 90px;
 }
