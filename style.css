@@ -86,6 +86,16 @@ body {
 
 }
 
+button:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+
 .blog {
     background-color: #DD0000;
     font-family: 'Poppins';
@@ -191,4 +201,30 @@ footer span {
         width: 100%;
     }
 
+}
+
+
+/* Website 2 css  */
+
+.sch-img {
+    display: flex;
+    padding: 18px 37px;
+    gap: 21px;
+}
+
+.schedule {
+    width: 321px;
+    height: 208px;
+    border: 0.5px solid rgb(211, 209, 209);
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.schedules {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    margin-bottom: 37px;
 }
