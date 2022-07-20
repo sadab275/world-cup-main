@@ -183,6 +183,10 @@ footer span {
     margin-top: 90px;
 }
 
+.view {
+    display: none;
+}
+
 /* -----------Responsive design------ */
 /* ---mobile---- */
 @media only screen and (max-width:688px) {
@@ -207,12 +211,18 @@ footer span {
         margin-left: 28px;
     }
 
+    .view {
+        display: block;
+    }
+
     .footer {
         display: grid;
         row-gap: 15px;
         font-size: 25px;
         color: #969191;
     }
+
+
 }
 
 /* ---tablet--- */
@@ -247,6 +257,20 @@ footer span {
 
     .transfers {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .view {
+        display: block;
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        row-gap: 15px;
+        font-size: 25px;
+        color: #969191;
+        align-items: center;
+        justify-items: center;
     }
 }
 
