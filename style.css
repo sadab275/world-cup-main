@@ -183,20 +183,25 @@ footer span {
     margin-top: 90px;
 }
 
-@media screen (min-width:688px) and (max-width:992px) {
+/* -----------Responsive design------ */
+
+@media only screen and (min-width:688px) and (max-width:992px) {
     .update {
         justify-items: horizontal;
-        width: 100%
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .transfers {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        background-color: #DD0000;
         width: 100%;
     }
 }
 
-@media only screen (max-width:688) {
+@media only screen and (max-width:688) {
     .transfers {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
