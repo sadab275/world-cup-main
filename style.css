@@ -185,13 +185,34 @@ footer span {
 
 /* -----------Responsive design------ */
 /* ---mobile---- */
-@media only screen and (max-width:688) {
+@media only screen and (max-width:688px) {
     .transfers {
-        display: grid;
         grid-template-columns: repeat(1, 1fr);
-        width: 100%;
     }
 
+    .merge {
+        display: inline-block;
+        /* background-color: ; */
+    }
+
+    .update {
+        width: 300px;
+        height: 212px;
+        /* left: 140px; */
+        /* top: 826px; */
+        background: #fff;
+        border-radius: 10px;
+        /* display: grid; */
+        /* grid-template-columns: repeat(1, 1fr); */
+        margin-left: 28px;
+    }
+
+    .footer {
+        display: grid;
+        row-gap: 15px;
+        font-size: 25px;
+        color: #969191;
+    }
 }
 
 /* ---tablet--- */
