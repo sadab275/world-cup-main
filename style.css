@@ -185,22 +185,6 @@ footer span {
 
 /* -----------Responsive design------ */
 
-@media only screen and (min-width:688px) and (max-width:992px) {
-    .update {
-        justify-items: horizontal;
-        width: 100%;
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .transfers {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        background-color: #DD0000;
-        width: 100%;
-    }
-}
-
 @media only screen and (max-width:688) {
     .transfers {
         display: grid;
@@ -209,6 +193,42 @@ footer span {
     }
 
 }
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .merge {
+        display: inline-block;
+    }
+
+    .update {
+        /* width: 300px; */
+        height: 84px;
+        /* left: 140px; */
+        /* top: 826px; */
+        background: #fff;
+        border-radius: 10px;
+        /* display: grid; */
+        /* grid-template-columns: repeat(1, 1fr); */
+        display: inline-block;
+        width: 134%;
+    }
+
+    .update button {
+        width: 201px;
+        height: 50px;
+        margin-left: 12px;
+        margin-top: 10px;
+        border-radius: 10px;
+        font-family: 'Poppins';
+        font-weight: 700;
+        list-style-type: none;
+    }
+
+    .transfers {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
 
 
 /* Website 2 css  */
