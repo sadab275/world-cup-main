@@ -58,6 +58,12 @@ body {
     margin-right: 20px;
 
     margin-top: 20px;
+
+}
+
+.marcelo img:hover {
+    transform: rotate(30deg);
+    opacity: 0.5;
 }
 
 .update {
@@ -213,6 +219,7 @@ footer span {
 
     .view {
         display: block;
+
     }
 
     .footer {
